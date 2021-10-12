@@ -1,0 +1,38 @@
+/** @format */
+
+.admin {
+  text-align: center;
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 5rem;
+}
+
+.img1 {
+  background-image: url("/PIO/img/admin.png");
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  outline-offset: 1px;
+  outline: solid 2px #141414;
+  background-size: 2rem;
+  background-position: center;
+  transition: all ease 0, 2s;
+  margin-top: 1rem;
+}
+
+.username {
+  margin-top: 4rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
