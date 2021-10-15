@@ -4,13 +4,14 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <title>Home Sales & Marketing</title>
+    <title>Accounting Staff</title>
   </head>
   <body>
     <!-- NAVBAR & DROPDOWNS -->
@@ -33,20 +34,20 @@
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="/PIO/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounting</a>
+                    <a class="nav-link dropdown-toggle" href="Accounting.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounting</a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                      <li><a class="dropdown-item" href="/PIO/Accounting.html">Transaction</a></li>
-                      <li><a class="dropdown-item" href="/PIO/Accounting.html">Profit & Income</a></li>
-                      <li><a class="dropdown-item" href="/PIO/Accounting.html">stock Exchange</a></li>
+                      <li><a class="dropdown-item" href="#transaction">Transaction</a></li>
+                      <li><a class="dropdown-item" href="#income">Profit & Income</a></li>
+                      <li><a class="dropdown-item" href="#">stock Exchange</a></li>
                     </ul>
                   </li>
                   <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Product</a>
+                        <a class="nav-link dropdown-toggle" href="/PIO/Product.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Product</a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="Product.html">Stock Product</a></li>
-                          <li><a class="dropdown-item" href="Product.html">Description Product</a></li>
+                          <li><a class="dropdown-item" href="/PIO/Product.html">Stock Product</a></li>
+                          <li><a class="dropdown-item" href="#description">Description Product</a></li>
                         </ul>
                       </li>
                 <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -80,44 +81,96 @@
         </div>
       </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/PIO/img/jpg1.jpg" class="d-block w-100" alt="homeimage1">
-        </div>
-        <div class="carousel-item">
-          <img src="/PIO/img/jpg2.jpeg" class="d-block w-100" alt="homeimage2">
-        </div>
-        <div class="carousel-item">
-          <img src="/PIO/img/jpg4.jpg" class="d-block w-100" alt="homeimage3">
-        </div>
-        <div class="carousel-item">
-          <img src="/PIO/img/jpg3.jpg" class="d-block w-100" alt="homeimage3">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     
+    <!-- TRANSACTION -->
+
+    <h3 class="transaction">Accounting Division Transaction Report</h3>
+    <selection id="transaction">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Date</th>
+            <th scope="col">Unit</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>01/10/2021</td>
+            <td>New Toyota 86</td>
+            <td>Rp. 830.000.000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>1/10/2021</td>
+            <td>New Toyota Avanza</td>
+            <td>Rp. 187.600.000</td>
+          </tr>
+          <tr>
+            <th scope="2">3</th>
+            <td>2/10/2021</td>
+            <td>New Toyota Alphard</td>
+            <td>Rp. 1.065.450.000</td>
+          </tr>
+        </tbody>
+      </table>
+      </selection>
+    <!-- AKHIRAN TRANSACTION -->
+
+    <!-- FORM TRANSAKSI -->
+    <section id="contact">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="input">Input Pembelian Unit</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">No</label>
+                <input type="text"  />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Date</label>
+                <input type="text"/>
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Cars Unit</label>
+                <input type="text"/>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Price</label>
+                <input type="text"/>
+              </div>
+              <button type="submit" class="btn btn-secondary">Kirim</button>
+            </form>
+          </div>
+        </div>
+        <BR>
+    <hr>
+    <!-- AKHIRAN FORM TRANSAKSI -->
+    
+    <!-- INCOME -->
+    <h3 class="income1">INCOME PT TOYOTA ASTRA MOTOR</h3>
+    <selection id="income">
+    <img src="/PIO/img/income.png" class="rounded mx-auto d-block" alt="...">
+    </selection>
+    <hr>
+    <!-- AKHIRAN  INCOME -->
+    </section>
+
+    <!-- STOCK EXCHANGE -->
+    <H3 class="saham">Bursa Saham</H3>
+    <marquee>  </marquee> 
     <!-- Footer -->
     <footer class="bg-secondary text-center pb-5">
-      <p>Created With love by <a class="text-white fw-bold">Team 1</a></p>
-      </footer>
-      <!-- Akhir footer -->
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    <p>Created With love by <a class="text-white fw-bold">Team 1</a></p>
+    </footer>
+    <!-- Akhir footer -->
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
